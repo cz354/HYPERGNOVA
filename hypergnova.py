@@ -75,9 +75,9 @@ parser.add_argument('sumstats2',
     help='The second sumstats file.')
 
 parser.add_argument('--bfile1', required=True, type=str,
-    help='Prefix for Plink .bed/.bim/.fam file of the sumstats1 file.')
+    help='Prefix for Plink .bed/.bim/.fam file of the reference panel of population 1.')
 parser.add_argument('--bfile2', required=True, type=str,
-    help='Prefix for Plink .bed/.bim/.fam file of the sumstats2 file.')
+    help='Prefix for Plink .bed/.bim/.fam file of the reference panel of population 2.')
 parser.add_argument('--partition', required=True, type=str,
     help='Genome partition file in bed format')
 parser.add_argument('--N1', type=int,
